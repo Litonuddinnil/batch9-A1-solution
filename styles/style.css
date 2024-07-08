@@ -66,30 +66,42 @@
 /* party style */
 .party{
     background-image:linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('../images/Vectorrr.png');
-    background-position: center;
     width: 1320px;
     height: 600px;
     border-radius: 16px;
     margin: 50px auto;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 126px 552px 298px 126px;
+    display: flex;
+   
+     
+}
+ 
+.party-picture{
+    margin-left: 500px;
+    margin-top: 67px;
+    padding-right: 45px;
+   
 }
  .party-title{
   
-    font-size: 64px;
+    font-size: 55px;
     font-weight: 900px;
     padding-bottom: 24px;
+    padding-top: 126px;
+    padding-left: 126px;
  }
 .party-subtitle{
     font-size: 18px;
     font-weight: 400px;
+    padding-left: 126px;
     opacity: 80%;
     padding-bottom: 48px;
 }
 .party-join{
     font-size: 20px;
     font-weight: bold;
+    padding-left: 156px;
 }
 /* join and some date details */
 .join-now{
@@ -234,6 +246,7 @@ height: 350.69px;
     margin: 50px auto;
     width: 1320px;
     height: 986px;
+    margin-bottom: 350px;
 }
 .gift-title{
     padding-bottom: 16px;
@@ -252,9 +265,6 @@ height: 350.69px;
     opacity: 60%;
     padding-bottom: 48px;
 }
-.img-box{
-     
-}
 .img-title{
     display: flex;
     gap: 24px;
@@ -262,4 +272,48 @@ height: 350.69px;
 .img-subtile{
     display: flex;
     gap: 24px;
+}
+/* subcribe part */
+.subscribe-container{
+     
+    margin: 50px auto;
+    width: 1320px;
+    height: 986px;
+    text-align: center;
+    background-image:linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%); 
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+.subscribe-title{
+    padding-top: 150px;
+    padding-bottom: 40px;
+}
+.subscribe-subtitle{
+    font-size: 48px;
+    font-weight: 900p;
+    padding-bottom: 22px;
+}
+.subscribe-description{
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 60%;
+    padding: 0px 212px 48px 212px;
+
+}
+.box-sub{
+border-radius: 0px 50px 50px 0px;
+background: rgb(255, 0, 0);
+border: 2px solid red;
+width: 450px;
+height: 50px;
+padding: 12px 58px 16px 58px;
+ 
+}
+.subscribe-buttom{
+width: 450px;
+height: 50px;
+border-radius: 50px 0px 0px 50px;
+background: rgb(255, 255, 255);
+border: none;
 }
