@@ -114,4 +114,152 @@
     border-radius: 8px;
     font-size: 20px;
     font-weight: bold;
+    border: none;
+}
+/* comming soon ar style */
+.comming-soon{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto;
+    width: 1320px;
+    height: 463px;
+    gap: 14px;
+    
+}
+.comming-container-1{
+    padding: 10px;
+    /* margin: 104px 70px 104px 140px; */
+    
+}
+.title{
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+.subtitle{
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 22px;
+}
+.description{
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 60%;
+}
+.comming-container-2{
+    padding-right: 20px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+}
+.comming-picture{
+    border: 15px solid #FF0000;
+    border-radius: 50%;
+    height: 365px;
+    width: 365px;
+    padding: 30px;
+    
+}
+.comming-container-3{
+    width: 276px;
+    height: 170px;
+    margin: 10px 120px 181px 118px;
+
+}
+.container-3-title{
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+.container-3-subtitle{
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 60%;
+    padding-bottom: 44px;
+}
+.container-3-image{
+    height: 140px;
+    width: 140px;
+}
+.holiday{
+    margin: 50px auto;
+    width: 1320px;
+    height: 986px;
+    text-align: center;
+    background-image: url('../images/Rectangle\ 2.png');
+    background-position:bottom;
+    background-repeat: no-repeat;
+
+    
+}
+.holiday-style{
+    margin: 120px 126px 64px 126px;
+}
+.holiday-title{
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+.holiday-subtitle{
+    font-size: 72px;
+    font-weight: 900;
+    padding-bottom: 28px;
+}
+.holiday-discription{
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 60%;
+    padding-bottom: 64px;
+}
+.sub-imag{
+ margin-top: 0px;
+width: 350.69px;
+height: 350.69px;
+ 
+}
+.description-imag{
+ border-radius: 4px;
+}
+.imag-style{
+    display: flex;
+    justify-content: space-between;
+
+}
+/* gift item */
+
+.gift-container{
+    margin: 50px auto;
+    width: 1320px;
+    height: 986px;
+}
+.gift-title{
+    padding-bottom: 16px;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 120px;
+}
+.gift-subtile{
+    font-size: 48px;
+    font-weight:900;
+    padding-bottom: 22px;
+}
+.gift-description{
+    font-size: 20px;
+    font-weight:400;
+    opacity: 60%;
+    padding-bottom: 48px;
+}
+.img-box{
+     
+}
+.img-title{
+    display: flex;
+    gap: 24px;
+}
+.img-subtile{
+    display: flex;
+    gap: 24px;
 }
